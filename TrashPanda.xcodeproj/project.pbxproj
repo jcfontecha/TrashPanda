@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2D2F87CD202003F400D90891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87CC202003F400D90891 /* AppDelegate.swift */; };
-		2D2F87CF202003F400D90891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87CE202003F400D90891 /* ViewController.swift */; };
+		2D2F87CF202003F400D90891 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87CE202003F400D90891 /* MainController.swift */; };
 		2D2F87D2202003F400D90891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F87D0202003F400D90891 /* Main.storyboard */; };
 		2D2F87D5202003F400D90891 /* TrashPanda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87D3202003F400D90891 /* TrashPanda.xcdatamodeld */; };
 		2D2F87D7202003F400D90891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F87D6202003F400D90891 /* Assets.xcassets */; };
 		2D2F87DA202003F400D90891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F87D8202003F400D90891 /* LaunchScreen.storyboard */; };
 		2D2F87E5202003F400D90891 /* TrashPandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87E4202003F400D90891 /* TrashPandaTests.swift */; };
+		2D2F87F42020058A00D90891 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87F22020058A00D90891 /* DashboardViewController.swift */; };
+		2D2F87F7202006BC00D90891 /* DashboardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F87F6202006BC00D90891 /* DashboardViewController.storyboard */; };
+		2D2F87F920200A1A00D90891 /* CustomNavigationPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87F820200A1A00D90891 /* CustomNavigationPresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,7 @@
 /* Begin PBXFileReference section */
 		2D2F87C9202003F400D90891 /* TrashPanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashPanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2F87CC202003F400D90891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D2F87CE202003F400D90891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D2F87CE202003F400D90891 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		2D2F87D1202003F400D90891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D2F87D4202003F400D90891 /* TrashPanda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrashPanda.xcdatamodel; sourceTree = "<group>"; };
 		2D2F87D6202003F400D90891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		2D2F87E0202003F400D90891 /* TrashPandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashPandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2F87E4202003F400D90891 /* TrashPandaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashPandaTests.swift; sourceTree = "<group>"; };
 		2D2F87E6202003F400D90891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2F87F22020058A00D90891 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		2D2F87F6202006BC00D90891 /* DashboardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DashboardViewController.storyboard; sourceTree = "<group>"; };
+		2D2F87F820200A1A00D90891 /* CustomNavigationPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationPresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +85,15 @@
 		2D2F87CB202003F400D90891 /* TrashPanda */ = {
 			isa = PBXGroup;
 			children = (
+				2D2F87EF2020047500D90891 /* Dashboard */,
 				2D2F87CC202003F400D90891 /* AppDelegate.swift */,
-				2D2F87CE202003F400D90891 /* ViewController.swift */,
+				2D2F87CE202003F400D90891 /* MainController.swift */,
 				2D2F87D0202003F400D90891 /* Main.storyboard */,
 				2D2F87D6202003F400D90891 /* Assets.xcassets */,
 				2D2F87D8202003F400D90891 /* LaunchScreen.storyboard */,
 				2D2F87DB202003F400D90891 /* Info.plist */,
 				2D2F87D3202003F400D90891 /* TrashPanda.xcdatamodeld */,
+				2D2F87F820200A1A00D90891 /* CustomNavigationPresentable.swift */,
 			);
 			path = TrashPanda;
 			sourceTree = "<group>";
@@ -97,6 +105,15 @@
 				2D2F87E6202003F400D90891 /* Info.plist */,
 			);
 			path = TrashPandaTests;
+			sourceTree = "<group>";
+		};
+		2D2F87EF2020047500D90891 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F87F22020058A00D90891 /* DashboardViewController.swift */,
+				2D2F87F6202006BC00D90891 /* DashboardViewController.storyboard */,
+			);
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2F87F7202006BC00D90891 /* DashboardViewController.storyboard in Resources */,
 				2D2F87DA202003F400D90891 /* LaunchScreen.storyboard in Resources */,
 				2D2F87D7202003F400D90891 /* Assets.xcassets in Resources */,
 				2D2F87D2202003F400D90891 /* Main.storyboard in Resources */,
@@ -203,8 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2F87D5202003F400D90891 /* TrashPanda.xcdatamodeld in Sources */,
-				2D2F87CF202003F400D90891 /* ViewController.swift in Sources */,
+				2D2F87CF202003F400D90891 /* MainController.swift in Sources */,
 				2D2F87CD202003F400D90891 /* AppDelegate.swift in Sources */,
+				2D2F87F42020058A00D90891 /* DashboardViewController.swift in Sources */,
+				2D2F87F920200A1A00D90891 /* CustomNavigationPresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
