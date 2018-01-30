@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2F87CD202003F400D90891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87CC202003F400D90891 /* AppDelegate.swift */; };
+		2D2F87CF202003F400D90891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87CE202003F400D90891 /* ViewController.swift */; };
+		2D2F87D2202003F400D90891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F87D0202003F400D90891 /* Main.storyboard */; };
+		2D2F87D5202003F400D90891 /* TrashPanda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87D3202003F400D90891 /* TrashPanda.xcdatamodeld */; };
+		2D2F87D7202003F400D90891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F87D6202003F400D90891 /* Assets.xcassets */; };
+		2D2F87DA202003F400D90891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F87D8202003F400D90891 /* LaunchScreen.storyboard */; };
+		2D2F87E5202003F400D90891 /* TrashPandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F87E4202003F400D90891 /* TrashPandaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D2F87E1202003F400D90891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D2F87C1202003F400D90891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2F87C8202003F400D90891;
+			remoteInfo = TrashPanda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D2F87C9202003F400D90891 /* TrashPanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashPanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2F87CC202003F400D90891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D2F87CE202003F400D90891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D2F87D1202003F400D90891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D2F87D4202003F400D90891 /* TrashPanda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrashPanda.xcdatamodel; sourceTree = "<group>"; };
+		2D2F87D6202003F400D90891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D2F87D9202003F400D90891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D2F87DB202003F400D90891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2F87E0202003F400D90891 /* TrashPandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashPandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2F87E4202003F400D90891 /* TrashPandaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashPandaTests.swift; sourceTree = "<group>"; };
+		2D2F87E6202003F400D90891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D2F87C6202003F400D90891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2F87DD202003F400D90891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2F87C0202003F400D90891 = {
+			isa = PBXGroup;
+			children = (
+				2D2F87CB202003F400D90891 /* TrashPanda */,
+				2D2F87E3202003F400D90891 /* TrashPandaTests */,
+				2D2F87CA202003F400D90891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D2F87CA202003F400D90891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F87C9202003F400D90891 /* TrashPanda.app */,
+				2D2F87E0202003F400D90891 /* TrashPandaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D2F87CB202003F400D90891 /* TrashPanda */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F87CC202003F400D90891 /* AppDelegate.swift */,
+				2D2F87CE202003F400D90891 /* ViewController.swift */,
+				2D2F87D0202003F400D90891 /* Main.storyboard */,
+				2D2F87D6202003F400D90891 /* Assets.xcassets */,
+				2D2F87D8202003F400D90891 /* LaunchScreen.storyboard */,
+				2D2F87DB202003F400D90891 /* Info.plist */,
+				2D2F87D3202003F400D90891 /* TrashPanda.xcdatamodeld */,
+			);
+			path = TrashPanda;
+			sourceTree = "<group>";
+		};
+		2D2F87E3202003F400D90891 /* TrashPandaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F87E4202003F400D90891 /* TrashPandaTests.swift */,
+				2D2F87E6202003F400D90891 /* Info.plist */,
+			);
+			path = TrashPandaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2F87C8202003F400D90891 /* TrashPanda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2F87E9202003F400D90891 /* Build configuration list for PBXNativeTarget "TrashPanda" */;
+			buildPhases = (
+				2D2F87C5202003F400D90891 /* Sources */,
+				2D2F87C6202003F400D90891 /* Frameworks */,
+				2D2F87C7202003F400D90891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrashPanda;
+			productName = TrashPanda;
+			productReference = 2D2F87C9202003F400D90891 /* TrashPanda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D2F87DF202003F400D90891 /* TrashPandaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2F87EC202003F400D90891 /* Build configuration list for PBXNativeTarget "TrashPandaTests" */;
+			buildPhases = (
+				2D2F87DC202003F400D90891 /* Sources */,
+				2D2F87DD202003F400D90891 /* Frameworks */,
+				2D2F87DE202003F400D90891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2F87E2202003F400D90891 /* PBXTargetDependency */,
+			);
+			name = TrashPandaTests;
+			productName = TrashPandaTests;
+			productReference = 2D2F87E0202003F400D90891 /* TrashPandaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D2F87C1202003F400D90891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Juan Carlos Fontecha";
+				TargetAttributes = {
+					2D2F87C8202003F400D90891 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2D2F87DF202003F400D90891 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D2F87C8202003F400D90891;
+					};
+				};
+			};
+			buildConfigurationList = 2D2F87C4202003F400D90891 /* Build configuration list for PBXProject "TrashPanda" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D2F87C0202003F400D90891;
+			productRefGroup = 2D2F87CA202003F400D90891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2F87C8202003F400D90891 /* TrashPanda */,
+				2D2F87DF202003F400D90891 /* TrashPandaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2F87C7202003F400D90891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2F87DA202003F400D90891 /* LaunchScreen.storyboard in Resources */,
+				2D2F87D7202003F400D90891 /* Assets.xcassets in Resources */,
+				2D2F87D2202003F400D90891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2F87DE202003F400D90891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2F87C5202003F400D90891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2F87D5202003F400D90891 /* TrashPanda.xcdatamodeld in Sources */,
+				2D2F87CF202003F400D90891 /* ViewController.swift in Sources */,
+				2D2F87CD202003F400D90891 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2F87DC202003F400D90891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2F87E5202003F400D90891 /* TrashPandaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2F87E2202003F400D90891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D2F87C8202003F400D90891 /* TrashPanda */;
+			targetProxy = 2D2F87E1202003F400D90891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D2F87D0202003F400D90891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2F87D1202003F400D90891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D2F87D8202003F400D90891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2F87D9202003F400D90891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D2F87E7202003F400D90891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D2F87E8202003F400D90891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D2F87EA202003F400D90891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrashPanda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcfontecha.TrashPanda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D2F87EB202003F400D90891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrashPanda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcfontecha.TrashPanda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D2F87ED202003F400D90891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrashPandaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcfontecha.TrashPandaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrashPanda.app/TrashPanda";
+			};
+			name = Debug;
+		};
+		2D2F87EE202003F400D90891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrashPandaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcfontecha.TrashPandaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrashPanda.app/TrashPanda";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2F87C4202003F400D90891 /* Build configuration list for PBXProject "TrashPanda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2F87E7202003F400D90891 /* Debug */,
+				2D2F87E8202003F400D90891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2F87E9202003F400D90891 /* Build configuration list for PBXNativeTarget "TrashPanda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2F87EA202003F400D90891 /* Debug */,
+				2D2F87EB202003F400D90891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2F87EC202003F400D90891 /* Build configuration list for PBXNativeTarget "TrashPandaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2F87ED202003F400D90891 /* Debug */,
+				2D2F87EE202003F400D90891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D2F87D3202003F400D90891 /* TrashPanda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D2F87D4202003F400D90891 /* TrashPanda.xcdatamodel */,
+			);
+			currentVersion = 2D2F87D4202003F400D90891 /* TrashPanda.xcdatamodel */;
+			path = TrashPanda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D2F87C1202003F400D90891 /* Project object */;
+}
